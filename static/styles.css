@@ -1,0 +1,109 @@
+body {
+    margin: 0 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.mission_background {
+    height: 700px;
+    width: 1200px;
+    margin: auto auto;
+    text-align: center;
+    top: 70px;
+    background-image: url('../media/mission-background.jpg');
+}
+
+.about_mission {
+    position: relative;
+    top: 300px;
+    background-color: black;
+    text-align: center;
+}
+
+.products {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1000px;
+    margin-left: 400px;
+    margin-right: 400px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product img {
+    width: 300px;
+    height: 200px;
+}
+
+.product {
+    text-align: center;
+}
+
+.about_products {
+    background-color: black;
+    text-align: center;
+}
+
+.locations {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url('../media/locations-background.jpg');
+    background-size: contain;
+    height: 500px;
+    align-items: center;
+}
+
+.location {
+    width: 300px;
+    text-align: center;
+    opacity: 1;
+    background-color: black;
+    height: 250px;
+}
+
+.locations_title {
+    text-align: center;
+}
+
+.about_company {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    text-align: left;
+    margin-left: 20px;
+}
